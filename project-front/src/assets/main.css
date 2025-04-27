@@ -1,0 +1,26 @@
+:root {
+  --primary: #007f59;
+  --primary-light: #96b1a9;
+  --primary-dark: #005139;
+  --primary-text: #131313;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (width > 1312px) {
+  h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+  }
+}
+
+@media screen and (width < 1312px) {
+  h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 26px;
+  }
+}
